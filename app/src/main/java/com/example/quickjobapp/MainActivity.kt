@@ -1,5 +1,6 @@
 package com.example.quickjobapp
 
+import android.content.Intent
 import android.os.Bundle
 import android.provider.ContactsContract.Profile
 import android.widget.TextView
@@ -35,7 +36,8 @@ class MainActivity : AppCompatActivity() {
 
             }
             R.id.nav_add_post -> {
-
+                val intent = Intent(this, AddPostActivity::class.java)
+                startActivity(intent)
                 return@OnNavigationItemSelectedListener true
             }
             R.id.nav_notifications -> {
