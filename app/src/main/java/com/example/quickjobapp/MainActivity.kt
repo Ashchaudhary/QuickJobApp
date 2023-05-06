@@ -1,21 +1,13 @@
 package com.example.quickjobapp
 
 import android.os.Bundle
-import android.provider.ContactsContract.Profile
-import android.widget.TextView
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
-import androidx.navigation.findNavController
-import androidx.navigation.ui.AppBarConfiguration
-import androidx.navigation.ui.setupActionBarWithNavController
-import androidx.navigation.ui.setupWithNavController
 import com.example.quickjobapp.Fragments.HomeFragment
 import com.example.quickjobapp.Fragments.NotificationsFragment
 import com.example.quickjobapp.Fragments.ProfileFragment
 import com.example.quickjobapp.Fragments.SearchFragment
-import com.example.quickjobapp.databinding.ActivityMainBinding
-import org.w3c.dom.Text
 
 class MainActivity : AppCompatActivity() {
 
