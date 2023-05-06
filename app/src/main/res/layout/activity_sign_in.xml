@@ -66,7 +66,7 @@
         />
 
     <Button
-        android:id="@+id/signup_link_btn"
+        android:id="@+id/signin_link_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"

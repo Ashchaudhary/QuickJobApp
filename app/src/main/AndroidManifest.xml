@@ -13,10 +13,16 @@
         android:theme="@style/Theme.QuickJobApp"
         tools:targetApi="31">
         <activity
+            android:name=".Fragments.ProfileFragment"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileFragment"
+            android:exported="false" />
+        <activity
             android:name=".SignInActivity"
             android:exported="false" />
-        <activity android:name=".SignUpActivity"></activity>
-        <activity android:name=".AccountSettingsActivity"></activity>
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".AccountSettingsActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
