@@ -10,11 +10,12 @@ class SignUpActivity : AppCompatActivity() {
         setContentView(R.layout.activity_sign_up)
 
 
-        val signup_link_btn = null
+        /*val signup_link_btn = null
         val signin_link_btn = null
         signin_link_btn.setOnClickListener {
             startActivity(Intent(this, SignInActivity::class.java))
-        }
+        }*/
+
 
     }
 }

@@ -15,6 +15,14 @@
     android:layout_above="@+id/nav_view"
     >
 
+    <Button
+        android:id="@+id/signIn_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Signin"
+        android:layout_marginBottom="45dp"
+        android:layout_margin="45dp"
+        />
 </FrameLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
@@ -27,8 +35,6 @@
         android:layout_alignParentBottom="true"
 
         />
-
-
 
 
 </RelativeLayout>

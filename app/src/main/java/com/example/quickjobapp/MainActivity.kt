@@ -1,6 +1,8 @@
 package com.example.quickjobapp
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
@@ -55,6 +57,12 @@ class MainActivity : AppCompatActivity() {
         navView.setOnNavigationItemSelectedListener (onNavigationItemSelectedListener)
 
      moveToFragment(HomeFragment())
+
+        val homeSignIn = findViewById<Button>(R.id.signIn_btn)
+        homeSignIn.setOnClickListener {
+            val intent = Intent(this, SignInActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun moveToFragment(fragment: Fragment){
