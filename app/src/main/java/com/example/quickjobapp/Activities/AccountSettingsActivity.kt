@@ -1,7 +1,8 @@
-package com.example.quickjobapp
+package com.example.quickjobapp.Activities
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+import com.example.quickjobapp.R
 
 class AccountSettingsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

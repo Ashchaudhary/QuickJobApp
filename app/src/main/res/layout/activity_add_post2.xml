@@ -4,13 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AddPost2">
+    tools:context=".Activities.AddPost2">
 
-    <Spinner
-        android:id="@+id/planets_spinner"
+    <EditText
+        android:id="@+id/planetsSpinner"
         android:layout_width="350dp"
         android:layout_height="48dp"
         android:layout_marginTop="104dp"
+        android:inputType="text"
+        android:hint="Location"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -22,11 +24,11 @@
         android:layout_marginTop="50dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Title"
+        android:hint="Title"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/planets_spinner" />
+        app:layout_constraintTop_toBottomOf="@+id/planetsSpinner" />
 
     <EditText
         android:id="@+id/roletxt"
@@ -35,7 +37,7 @@
         android:layout_marginTop="50dp"
         android:ems="10"
         android:inputType="text"
-        android:text="role"
+        android:hint="role"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
@@ -47,7 +49,7 @@
         android:layout_height="48dp"
         android:layout_marginTop="50dp"
         android:ems="10"
-        android:text="description"
+        android:hint="description"
         android:gravity="start|top"
         android:inputType="textMultiLine"
         app:layout_constraintEnd_toEndOf="parent"
@@ -61,7 +63,7 @@
         android:layout_height="48dp"
         android:layout_marginTop="50dp"
         android:ems="10"
-        android:text="salary"
+        android:hint="salary"
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

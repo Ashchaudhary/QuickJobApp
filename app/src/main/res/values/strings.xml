@@ -7,14 +7,18 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <string-array name="planets_array">
-        <item></item>
-        <item>Venus</item>
-        <item>Earth</item>
-        <item>Mars</item>
-        <item>Jupiter</item>
-        <item>Saturn</item>
-        <item>Uranus</item>
-        <item>Neptune</item>
+        <item>location</item>
+        <item>colombo</item>
+        <item>Gampaha</item>
+        <item>Kaluthara</item>
+        <item>Kandy</item>
+        <item>Matale</item>
+        <item>Nuwara</item>
+        <item>Galle</item>
+        <item>Matara</item>
+        <item>Jaffna</item>
+        <item>Kurunegala</item>
+        <item>Rathnapura</item>
     </string-array>
 
 
